@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import InstallPrompt from '@/components/InstallPrompt';
 import { useAuthStore } from '@/store/authStore';
 import Layout from '@/components/Layout';
 import AuthScreen from '@/screens/AuthScreen';
@@ -39,6 +40,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Layout>
+      <InstallPrompt />
     </HashRouter>
   );
 }
