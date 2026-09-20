@@ -18,24 +18,21 @@ leaves your phone.
 
 ---
 
-## What it does
-Six beginner, no-equipment moves across **Upper · Core · Lower**. Each exercise has its own
-required position — counting only starts once you're set up correctly, so bad reps don't count.
+## Install it (add to your home screen)
+**iPhone (Safari):** open the link → tap **Share** (the `⬆️` box) → **Add to Home Screen** → **Add**.
 
-## Built with
-**React · TypeScript · Vite · Tailwind** · **MediaPipe**.
-
-## Run it locally
-```bash
-git clone https://github.com/<your-username>/early-coach.git
-cd early-coach && npm install
-cp .env.example .env      # add your Supabase URL + anon key
-npm run dev               # http://localhost:5173
-```
-
+**Android (Chrome):** open the link → tap **⋮** (top-right) → **Install app** / **Add to Home screen** → **Install**.
+ 
+It then launches full-screen with its own icon, like a native app. *(On iPhone, use Safari — the camera only works there.)*
+ 
+## How to use it
+1. **Sign in** to save your progress, or tap **Continue as Guest**.
+2. **Pick a move** (e.g. Squat).
+3. **Watch the demo** to see the form.
+4. **Turn on your camera** and **get into position** — it starts counting when you're set.
+5. Do your reps — it counts and times each set for you.
 
 ## Privacy
-Camera needs HTTPS or localhost. On iPhone, use Safari.
 The camera stream is processed locally and never uploaded. Only your rep counts are saved.
 
 ---
