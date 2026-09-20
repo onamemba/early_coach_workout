@@ -8,7 +8,7 @@ Early Coach watches you through your webcam, checks you're in position, then cou
 and grades your form in real time. All pose detection runs **on-device** — your camera never
 leaves your phone.
 
-### 👉 [**Open the app**](https://early-coach-workout-o6jjje2e0-francis-tumbas-projects.vercel.app/)
+### 📱 [**Open the app**](https://early-coach-workout-o6jjje2e0-francis-tumbas-projects.vercel.app/)
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![PWA](https://img.shields.io/badge/PWA-installable-success)
