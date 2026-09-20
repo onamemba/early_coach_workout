@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useAuthStore } from '@/store/authStore';
 import Layout from '@/components/Layout';
-import InstallPrompt from '@/components/InstallPrompt';
 import AuthScreen from '@/screens/AuthScreen';
 import HomeScreen from '@/screens/HomeScreen';
 import ExerciseDemoScreen from '@/screens/ExerciseDemoScreen';
@@ -29,7 +28,6 @@ function App() {
   return (
     <HashRouter>
       <Layout>
-        <InstallPrompt />
         <Routes>
           <Route path="/" element={isAuthed ? <Navigate to="/home" replace /> : <AuthScreen />} />
           <Route path="/home" element={isAuthed ? <HomeScreen /> : <Navigate to="/" replace />} />
