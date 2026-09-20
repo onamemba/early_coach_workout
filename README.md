@@ -23,7 +23,7 @@ Six beginner, no-equipment moves across **Upper · Core · Lower**. Each exercis
 required position — counting only starts once you're set up correctly, so bad reps don't count.
 
 ## Built with
-**React · TypeScript · Vite · Tailwind** · **MediaPipe****.
+**React · TypeScript · Vite · Tailwind** · **MediaPipe**.
 
 ## Run it locally
 ```bash
