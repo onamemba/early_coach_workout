@@ -77,7 +77,7 @@ export default function InstallPrompt() {
               <Share className="w-4.5 h-4.5 text-blue" />
             </div>
             <div className="flex-1 min-w-0 pr-5">
-              <p className="text-sm font-display font-semibold text-ink leading-tight">Install Early Coach</p>
+              <p className="text-sm font-display font-semibold text-ink leading-tight">Install Coach</p>
               <p className="text-xs text-dim mt-0.5 leading-snug">
                 Tap <Share className="inline w-3 h-3 -mt-0.5 text-blue" /> then <span className="font-semibold text-ink">Add to Home Screen</span>
               </p>
@@ -89,7 +89,7 @@ export default function InstallPrompt() {
               <Download className="w-4.5 h-4.5 text-blue" />
             </div>
             <div className="flex-1 min-w-0 pr-5">
-              <p className="text-sm font-display font-semibold text-ink leading-tight">Install Early Coach</p>
+              <p className="text-sm font-display font-semibold text-ink leading-tight">Install Coach</p>
               <p className="text-xs text-dim mt-0.5">Get the full app experience</p>
             </div>
             <button

@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon-32.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Early Coach',
+        name: 'Coach',
         short_name: 'Coach',
         description: 'Your AI camera personal trainer.',
         theme_color: '#1E6BFF',
